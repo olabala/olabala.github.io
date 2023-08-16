@@ -37,6 +37,6 @@ jobs:
         with:
           # Upload entire repository
           path: '.'
-      - name: Deploy to GitHub Pages
+      - name: Deploy to Test
         id: deployment
         uses: actions/deploy-pages@v1
